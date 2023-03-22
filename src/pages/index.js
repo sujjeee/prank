@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import Head from 'next/head';
 import { HiVolumeUp, HiVolumeOff } from 'react-icons/hi';
-import
 
 export default function Home() {
   const videoRef = useRef(null);
