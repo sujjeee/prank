@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Head from 'next/head';
 import { HiVolumeUp, HiVolumeOff } from 'react-icons/hi';
+import
 
 export default function Home() {
   const videoRef = useRef(null);
@@ -48,7 +49,8 @@ export default function Home() {
 
             </button>
           </div>
-          <button className=' max-w-[350px] mt-8 border-black bg-blue-600 text-white hover:bg-white hover:text-black  w-full rounded-xl border text-base font-medium tracking-wide transition-all focus:outline-none py-3.5  '>Secure your link now!</button>
+          <button className=' max-w-[350px] mt-8 border-black bg-blue-600 text-white hover:bg-white hover:text-black  w-full rounded-xl border text-base font-medium tracking-wide transition-all focus:outline-none py-3.5  '>
+            <a href="https://securelink.vercel.app/" >Secure your link now!</a></button>
         </div>
       </main>
     </>
